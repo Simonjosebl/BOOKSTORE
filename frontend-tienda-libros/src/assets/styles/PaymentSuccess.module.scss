@@ -1,0 +1,36 @@
+.successContainer {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: #2c3e50;
+    min-height: 70vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #28a745;
+      margin-top: 3.2rem;
+    }
+  
+    p {
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+  
+    button {
+      padding: 0.75rem 1.5rem;
+      background-color: #cc9600;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  
+      &:hover {
+        background-color: #f3b200;
+      }
+    }
+  }
+  

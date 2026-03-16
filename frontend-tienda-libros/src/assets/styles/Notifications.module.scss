@@ -1,0 +1,53 @@
+.notificationPage {
+    padding: 2rem;
+    min-height: 80vh;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #5c3d16;
+    margin-bottom: 2rem;
+    font-family: 'Georgia', serif;
+    text-transform: uppercase;
+  }
+  
+  .orderList {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .orderItem {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+  
+    img {
+      width: 80px;
+      height: auto;
+      border-radius: 4px;
+    }
+  }
+  
+  .orderInfo {
+    flex-grow: 1;
+  
+    strong {
+      display: block;
+      font-size: 1.1rem;
+    }
+  
+    p {
+      margin: 0.2rem 0;
+
+    }
+  }
+  
+  .status {
+    font-weight: bold;
+    color: green;
+  }
+  

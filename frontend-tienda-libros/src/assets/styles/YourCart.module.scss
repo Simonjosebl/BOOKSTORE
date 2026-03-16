@@ -1,0 +1,130 @@
+.cartPage {
+    text-align: center;
+    padding: 2rem;
+    min-height: 90vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .cartTitle {
+    font-size: 1.5rem;
+    color: #4b2e0d;
+    margin-bottom: 2rem;
+  }
+  
+  .cartItems {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .cartCard {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 220px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    position: relative;
+  }
+  
+  .cartCard img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .pquantity{
+    font-weight: bold;
+  }
+  
+  .quantityControl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .quantityControl button {
+    padding: 0.25rem 0.5rem;
+    font-size: 1rem;
+    background-color: #f5f5f5;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .quantityControl button:hover {
+    background-color: #e2a601;
+    color: white;
+    border: 1px solid #f5f5f5;
+  }
+  
+  .quantityControl span {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .removeBtn {
+    margin-top: 0.75rem;
+    background-color: #ffe5e5;
+    border: 1px solid #c00;
+    color: #c00;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+
+  .removeBtn:hover {
+    background-color: #ffcccc;
+  }
+  
+  .total {
+    margin-top: 0rem;
+  }
+  
+  h3{
+    font-size: 2.5rem;
+
+  }
+
+  .emptymessage{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .checkoutButton {
+    margin: 1rem 1rem 0 0;
+    padding: 0.5rem 1rem;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+  }
+  
+  .checkoutButton:hover {
+    background-color: #CC9600;
+    color: white;
+    border: 1px solid #f5f5f5;
+  }
+  
+  .clearButton {
+    padding: 0.5rem 1rem;
+    border: 1px solid #c00;
+    border-radius: 4px;
+    background-color: #ffe5e5;
+    color: #c00;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+  }
+  
+  .clearButton:hover {
+    background-color: #ffcccc;
+  }
+  

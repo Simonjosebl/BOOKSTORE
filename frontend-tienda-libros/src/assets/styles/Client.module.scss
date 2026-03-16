@@ -1,0 +1,91 @@
+.clientContainer {
+    background: black;
+    color: orange;
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    min-height: 60vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    h2 {
+      margin-bottom: 2rem;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+  
+  .formGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    
+  }
+  
+  .inputGroup {
+    background: white;
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+  
+    svg {
+      margin-right: 0.5rem;
+      color: black;
+    }
+  
+    input {
+      border: none;
+      outline: none;
+      width: 100%;
+    }
+  }
+  
+  .saveButton {
+    padding: 0.5rem 1.5rem;
+    margin-top: 6rem;
+    background-color: rgb(199, 131, 4);
+    color: black;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    &:hover {
+      background-color: rgb(255, 166, 0);
+      color: white;
+    }
+  }
+
+  .cardButton {
+    background-color: rgb(199, 131, 4);
+    color: black;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    &:hover {
+      background-color: rgb(255, 166, 0);
+      color: white;
+    }
+  }
+
+  .LogOutButton {
+    padding: 0.5rem 1.5rem;
+    margin-top: 6rem;
+    background-color: rgb(211, 0, 0);
+    color: black;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 2rem;
+    &:hover {
+        background-color: rgb(245, 3, 3);
+        color: white;
+      }
+  }
+  

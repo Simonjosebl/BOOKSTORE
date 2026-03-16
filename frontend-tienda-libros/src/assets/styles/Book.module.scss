@@ -1,0 +1,159 @@
+.bookDetail {
+    display: flex;
+    height: 100vh;
+    color: #000;
+    background: #fff;
+    position: relative;
+}
+
+.bookImageWrapper {
+    position: absolute;
+    left: 34%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+
+    img {
+        max-width: 180px;
+        border-radius: 2px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    }
+}
+
+.leftPanel {
+    flex: 1;
+    background: #000;
+    color: #fff;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+
+    h1 {
+        font-size: 1.5rem;
+        font-family: 'Georgia', serif;
+        font-weight: normal;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-align: left;
+        margin-bottom: 0.2rem;
+    }
+
+    h3 {
+        font-size: 0.8rem;
+        font-family: 'Georgia', serif;
+        color: #d4af37;
+        text-transform: uppercase;
+        text-align: left;
+        margin-top: 0;
+    }
+}
+
+.rightPanel {
+    flex: 2;
+    display: flex; 
+    padding: 4rem 4rem 4rem 2rem; 
+    font-family: 'Georgia', serif;
+    z-index: 1;
+
+
+    .emptyColumn {
+        flex: 0.3; 
+        min-width: 100px; 
+    }
+
+
+    .contentColumn {
+        padding-top: 2.5rem;
+        flex: 1; 
+        max-width: 600px; 
+        display: flex;
+        flex-direction: column;
+    }
+    
+    p, .aboutBook p {
+        text-align: justify; 
+    }
+
+    .category {
+        font-size: 0.95rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #000;
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
+        svg {
+            color: #d4af37;
+        }
+    }
+
+    .description {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        line-height: 1.6;
+        color: #333;
+    }
+
+    .priceSection {
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: #d4af37;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .cartButton {
+        border: 1px solid #d4af37;
+        background: transparent;
+        font-weight: bold;
+        color: #000;
+        padding: 0.5rem 1.5rem;
+        border-radius: 4px;
+        font-family: 'Georgia', serif;
+        font-size: 0.9rem;
+        cursor: pointer;
+        margin-bottom: 3rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        width: fit-content; 
+
+        &:hover {
+            background: #000;
+            color: #fff;
+        }
+    }
+
+    .codeBook {
+        margin-bottom: 2rem;
+    h4 {
+            font-size: 1rem;
+            font-weight: bold;
+            text-transform: uppercase
+        }
+    }
+
+    .aboutBook {
+        h2 {
+            font-size: 1rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            color: #000;
+        }
+
+        p {
+            font-size: 0.95rem;
+            line-height: 1.7;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        
+    }
+}
